@@ -27,7 +27,7 @@ class Config(object):
     DB_URI = os.environ.get("DATABASE_URL", "postgres://jay_1pbd_user:LAsHDQA0QtVDdaRDnF1VbCajQG9gcNmF@dpg-cg3gmhd269v3bpa79hsg-a.oregon-postgres.render.com/jay_1pbd")
     
     # authorized users separated by space
-    AUTH_USERS = int(os.environ.get("AUTH_USERS", "1770455672"})
+    AUTH_USERS = int(os.environ.get("AUTH_USERS", "1770455672"))
 
 
 def LOGGER(name: str) -> logging.Logger:
