@@ -24,7 +24,7 @@ class Config(object):
     TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQCASQT-Cd6Mku-9UzfinQCP7O5X36Sa7Fr-DImTFV7iXhFY1feE0Jjc84_VEzDpDzaDdQRfB-__KQbSJb2i7lQN3g13bwHbSe0PbmXToPv7SU1x0xUdQWEfUtGtZ-BR9zkCevyNEsjAkEy-6Xe8F9_tW2TeODApQ4RruVv4IuPLUwUCVqmbMUTUVihuGgGyuwXCRxoG2fCFpvkV-9ItypSjp-YEXNdJ_M9MLNV53D4exTNPjuaNjsXr3HY7jJ2nU1_AB7mvL4aD76Dix2YvXG5Cyo3HQ_4fB_Zgx0kX_LhAT-2D2ciNczgW61OMoVeD_DZ0HxpXeMdr7M7bloNOVB-iaYcCeAA")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://KarthikMovies:KarthikUK007@cluster0.4l5byki.mongodb.net/?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://jay_1pbd_user:LAsHDQA0QtVDdaRDnF1VbCajQG9gcNmF@dpg-cg3gmhd269v3bpa79hsg-a.oregon-postgres.render.com/jay_1pbd")
 
 
 def LOGGER(name: str) -> logging.Logger:
